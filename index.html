@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chips demo</title>
+        <link rel="stylesheet" href="CSS/chipStyle.css">
+        <script src="JS/script.js"></script>
+    </head>
+    <body>
+        <main>
+            <!-- Checkbox -->
+            <!-- toggleSelectCheckbox(chipId, inputId) -->
+            <p>Checkbox Implementation</p>
+            <div class="chip" id="checkboxChipId001" onclick="toggleSelectCheckbox('checkboxChipId001','checkboxId001')">
+                Checkbox 1
+                <input class="hidden" type="checkbox" id="checkboxId001">
+            </div>
+            <div class="chip" id="checkboxChipId002" onclick="toggleSelectCheckbox('checkboxChipId002','checkboxId002')">
+                Checkbox 2
+                <input class="hidden" type="checkbox" id="checkboxId002">
+            </div>
+            <div class="chip" id="checkboxChipId003" onclick="toggleSelectCheckbox('checkboxChipId003','checkboxId003')">
+                Checkbox 3
+                <input class="hidden" type="checkbox" id="checkboxId003">
+            </div>
+
+            <!-- Radio -->
+            <!-- toggleSelectRadio(chipId, inputId, radioGroupName) -->
+            <p>Radio buttons Implementation</p>
+            <div class="chip" id="radioChipId001" onclick="toggleSelectRadio('radioChipId001','radioId001','radioSelection')">
+                Radio 1
+                <input type="radio" name="radioSelection" id="radioId001">
+            </div>
+            <div class="chip" id="radioChipId002" onclick="toggleSelectRadio('radioChipId002','radioId002','radioSelection')">
+                Radio 2
+                <input type="radio" name="radioSelection" id="radioId002">
+            </div>
+            <div class="chip" id="radioChipId003" onclick="toggleSelectRadio('radioChipId003','radioId003','radioSelection')">
+                Radio 3
+                <input type="radio" name="radioSelection" id="radioId003">
+            </div>
+
+            <!-- Form -->
+            <p>Form below this line</p>
+            <form>
+
+            </form>
+        </main>
+    </body>
+
+</html>

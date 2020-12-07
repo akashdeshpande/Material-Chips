@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.chip {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #E4E4E4;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    user-select: none;
+}
+
+.chip:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.chipSelected {
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color:#333333;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    user-select: none;
+}
+
+.chipSelected:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
